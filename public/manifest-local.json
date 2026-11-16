@@ -1,0 +1,8 @@
+{
+  "name": "DSA – Token-Status (Lokal)",
+  "version": "1.0.0",
+  "manifest_version": 1,
+  "description": "Lokaler Test: Wundmarker an Tokens.",
+  "icon": "http://localhost:5173/icons/extension.svg",
+  "background_url": "http://localhost:5173/background.html"
+}
