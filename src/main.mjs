@@ -1,7 +1,9 @@
 import OBR, { buildImage } from '@owlbear-rodeo/sdk';
 import { createWoundsController } from './core.mjs';
 
-const asset = (name) => new URL(`./assets/${name}`, window.location.href).href;
+// Update the revision when graphical overlays change to avoid stale cached images.
+const ASSET_REVISION = '1.1.0';
+const asset = (name) => `${new URL(`./assets/${name}`, window.location.href).href}?v=${ASSET_REVISION}`;
 const icon = (name) => new URL(`./icons/${name}`, window.location.href).href;
 const urls = {
   1: asset('wounds-1.png'),

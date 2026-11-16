@@ -1,6 +1,13 @@
-# DSA – Token-Status, Version 1.0.0
+# DSA – Token-Status, Version 1.1.0
 
-Eine Owlbear-Rodeo-Extension für **DSA 4.1**. Sie zeigt an runden Charakter-Tokens 0–3 Wunden als kleine rote Blutstropfen. Position: **erste Wunde 12 Uhr, zweite 11 Uhr, dritte 1 Uhr**. Die Grafiken bleiben vollständig innerhalb des Tokenkreises.
+Eine Owlbear-Rodeo-Extension für **DSA 4.1**. Sie zeigt an runden Charakter-Tokens 0–3 Wunden als kleine rote Blutstropfen. Position: **erste Wunde 12 Uhr, zweite 11 Uhr, dritte 1 Uhr**. Die Grafiken bleiben vollständig innerhalb des Tokenkreises. **V1.1:** Blutstropfen 25 % größer; die Positionen 12, 11 und 1 Uhr bleiben erhalten.
+
+## Update von V1.0 auf V1.1
+
+- Den **Patch** `DSA_Token_Status_Update_V1_1.zip` entpacken und dessen Projektdateien unter ihren bestehenden Pfaden in das GitHub-Repository hochladen / überschreiben. Der `.github`-Ordner wird dabei **nicht** benötigt und soll unverändert bleiben. Alternativ das vollständige V1.1-Projekt verwenden.
+- `Settings → Pages` bleibt auf **GitHub Actions**. Nach dem Commit den erfolgreichen Workflow abwarten. Die Manifest-Adresse ändert sich **nicht**: `https://ionem.github.io/dsa-token-status/manifest.json`.
+- Bereits vorhandene Token-Wundmarker werden nicht automatisch verändert: Das Token auswählen und dieselbe Wundstufe über das Kontextmenü **erneut setzen**. Die neue Grafik wird mit einem geänderten Asset-URL-Parameter geladen (`?v=1.1.0`), um veraltete Browser-Caches zu umgehen.
+- Bei Bedarf Owlbear Rodeo / Extension einmal neu laden, falls im Kontextmenü noch die alte Version aktiv ist.
 
 ## Bedienung
 

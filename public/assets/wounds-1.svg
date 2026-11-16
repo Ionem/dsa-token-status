@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000" role="img" aria-label="DSA Wundmarker mit 1 Wunde">
   <title>1 Wunde – DSA Token Status</title>
-  <desc>Transparentes, kreisinneres Token-Overlay: Blutstropfen bei 12 Uhr.</desc>
+  <desc>Version 1.1, 25% größere Blutstropfen. Transparentes, kreisinneres Token-Overlay: Blutstropfen bei 12 Uhr.</desc>
   <defs>
     <linearGradient id="blood" x1="0" y1="0" x2="94%" y2="100%">
       <stop offset="0%" stop-color="#D45B61"/>
@@ -11,7 +11,7 @@
     </linearGradient>
   </defs>
   <!-- Tropfen bei 12 Uhr -->
-  <g transform="translate(500.000 80.000)">
+  <g transform="translate(500.000 100.000) scale(1.25)">
     <path d="M 0,-50 C -11,-31 -24,-12 -34,7 C -39,17 -42,24 -42,29 C -42,45 -24,55 0,55 C 24,55 42,45 42,29 C 42,24 39,17 34,7 C 24,-12 11,-31 0,-50 Z"
           fill="url(#blood)" stroke="#590D16" stroke-width="3.4" stroke-linejoin="round"/>
     <path d="M -3,-31 C -15,-12 -24,4 -29,19 C -31,24 -32,30 -29,35 C -28,21 -18,7 -12,-7 Z"

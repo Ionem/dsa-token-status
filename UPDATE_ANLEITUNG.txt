@@ -1,0 +1,14 @@
+DSA TOKEN-STATUS – UPDATE V1.1.0
+
+Nur die angegebenen Dateien ersetzen; die restlichen Dateien bleiben unangetastet.
+
+1. ZIP entpacken.
+2. Auf GitHub (ionem/dsa-token-status) die Ordner "public" und "src" sowie die Dateien "package.json" und "README.md" unter Erhalt ihrer Pfade hochladen / ersetzen.
+3. Unter Actions das grüne Ergebnis des Workflows "DSA Token Status - GitHub Pages" prüfen.
+4. Manifest-URL bleibt https://ionem.github.io/dsa-token-status/manifest.json
+5. In Owlbear Rodeo bestehende Wundmarker aktualisieren: Token auswählen und dieselbe Wundstufe erneut anklicken. Bei Bedarf die Erweiterung neu laden.
+
+Neu: +25 % Tropfengröße, etwas weiter innen positioniert, weiterhin ohne Überstand.
+Technisch: Asset-URL mit ?v=1.1.0; manifest version 1.1.0.
+
+Der .github-Ordner muss nicht hochgeladen oder verändert werden.
